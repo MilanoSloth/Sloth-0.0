@@ -1,0 +1,38 @@
+sloth = input("What is your name? Enter Name: ")
+
+print("Hello " + sloth)
+
+print("I am Sloth. Ready to adhere to your will.")
+
+age = input (sloth + ", how old are you? Enter Age: ")
+
+int(age)
+
+age = int(age)
+
+if age < 18:
+  print("You are too young to be a Sloth.")
+  
+elif age >= 18:
+  print("You are now registered as a Sloth.")
+
+else:
+  print("You are not a Sloth. Please enter a valid age.")
+while age < 18:
+  print(f"Exiting Sin of Sloth. Goodbye {sloth}.")
+  break
+if age >= 18:
+ print("What is your gender?")
+gender = input("Enter Gender: ")
+if gender == "male":
+  print("You are a male Sloth.")
+elif gender == "female":
+  print("You are a female Sloth.")
+else:
+  print(f"You are a {gender} Sloth. Welcome to Sin of Sloth.")
+pip install numpy
+import numpy as np
+pip install scipy
+import scipy as sp
+pip install gensim
+import gensim as gs
